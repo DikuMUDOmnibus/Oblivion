@@ -1,0 +1,69 @@
+#!/bin/bash
+
+let date=`date '+%Y%j'`
+let date2=`date '+%j'`
+if [ $date2 -ge 180 ]; then
+     let date=$date+634
+fi
+
+for filename in "$@"; do
+  if [ -f $filename ]; then
+    month=`ls -la $filename |sed 's/^.\{42\}\(...\).*$/\1/'`
+    day=`ls -la $filename |sed 's/^.* \([0-9]*\) ..... [^ ]*$/\1/'`
+    coloncheck=`ls -la $filename |sed 's/^.*\(.\).. [^ ]*$/\1/'`
+    if [ $coloncheck = ':' ]; then
+      let year=`date '+%Y'`
+    else
+      year=`ls -la $filename |sed 's/^.*\(....\) [^ ]*$/\1/'` 
+    fi
+    let year=$year*1000
+    case $month in
+      Jan )
+        let day=$day+0 ;;
+      Feb )
+        let day=$day+31 ;;
+      Mar )
+        let day=$day+59 ;;
+      Apr )
+        let day=$day+90 ;;
+      May )
+        let day=$day+120 ;;
+      Jun )
+        let day=$day+151 ;;
+      Jul )
+        let day=$day+181 ;;
+      Aug )
+        let day=$day+212 ;;
+      Sep )
+        let day=$day+243 ;;
+      Oct )
+        let day=$day+273 ;;
+      Nov )
+        let day=$day+304 ;;
+      Dec )
+        let day=$day+334 ;;
+    esac
+    if [ $date2 -ge 180 ]; then
+       let day=$day+634
+    fi
+    let day=$year+$day
+
+    level=`grep '^Levl ' $filename |sed 's/^Levl \([0-9]*\)$/\1/'`
+    echo "$filename is level $level."
+    let daysold=$date-$day
+    if [ $level -le 9 ]; then
+       if [ $daysold -ge 15 ]; then
+         echo "This file is $daysold days old, so I will trash it."
+         rm -f $filename
+       fi
+    elif [ $daysold -ge 45 ]; then
+       echo "This file is $daysold days old, so I will archive it."
+       mv $filename archive
+    fi
+  fi
+done
+
+
+
+
+

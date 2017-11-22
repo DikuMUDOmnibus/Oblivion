@@ -1,0 +1,44 @@
+The purpose of the Oblivion code base is as thus:
+
+
+To facilitate a roleplaying environment as opposed to the regular hack and
+slash style ofthe original diku and derivatives.
+
+To create a communitee of realms with unique mythos's but sharing in their
+coding achievements, and thus benifitting from each other's pool of knowledge.
+
+To allow the individual(s) and administrators to develop their own realm,
+lush and vivid with its own life and clarity of purpose, without concern
+that their coder might quit on them.
+
+Basically my dream for the Oblivion code base is that knowledge and work 
+will be shared by all.  Oblivion only comes with a few areas with the intent
+that each admin will create their own unique realm with the help of their 
+friends and compatriates filled with mostly original areas.  Hopefully an
+archive of "typical" areas which fit different mythos's (fantasy, gothic,
+future, etc) in general.  I hope to release future copies of the code base,
+all backward compatible with your pfiles and areas.  To help me do this though
+people must be willing to submit their changes to be added to the next release
+of the stock code.  So unless you are really good at using diff, and patch,
+it will be unlikely that you will be able to easily update your mud if you
+are making large changes and are not sending them in as you go along.  I hope
+to be able to release a new version every 2 months.  This current copy is an 
+alpha, I am certain it has many bugs, so I would greatly appreciate if they
+were sent in.
+
+To join the oblivion mailing list write to:
+
+oblivion-request@dnaco.net
+subject (none)
+body:
+subscribe
+end
+
+Hopefully this will prove as a useful forum for discussion, and if anyone can
+appropriate newsgroup space, please feel free to do so.  A 
+rec.games.mud.oblivion newsgroup would be welcomed.
+
+I will give technical support to users as time permits.
+
+-Wes Wagner, Aka Airius, Crystal Dragon Highlord.
+

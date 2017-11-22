@@ -1,0 +1,9 @@
+#PLAYER
+Version 0
+Name <name>~
+Race <race>~
+TSex <sex>
+Cla <class>
+Alig <al|tendency> <al|alliance>
+End
+#END

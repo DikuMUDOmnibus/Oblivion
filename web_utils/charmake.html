@@ -1,0 +1,88 @@
+<HTML>
+
+<HEAD>
+<TITLE>Character Request Form</TITLE>
+<HEAD>
+
+<BODY BACKGROUND="images/back5.jpg" TEXT="FFFFFF" LINK="EE3317"
+VLINK="0000FF" ALINK="FF0000">
+
+<FONT SIZE=24>
+<CENTER>Please Fill Out and Submit The Form Below:</CENTER><P>
+
+<CENTER><IMG SRC="images/divide1.gif"></CENTER><P>
+
+<FORM METHOD=POST name="$input" ACTION="cgi-bin/inreq.cgi">
+</FONT>
+
+
+What Is Your Email Address:<input type="text" maxlength=80
+name="PC_Email"><P>
+You must fill your email address in correctly otherwise the process will
+not work.  Your acceptance or denial will be sent to this address, we will
+not keep your email address on record after this process is completed.<P>
+
+<CENTER><IMG SRC="images/divide1.gif"></CENTER><P>
+
+What Will Be Your Name: <input type="text" maxlength=12 name="PC_Name"><P>
+Choose a Race: <select name="PC_Race">
+      	       <option selected>human
+               <option> elf
+	       <option> dwarf
+               <option> half-elf
+               <option> gnome
+               <option> halfling
+               <option> half-Orc
+               <option> orc
+               <option> draconian
+               <option> drow
+               <option> avian
+               <option> gnoll
+               </select><P>
+Choose a Gender: <P>
+<input type="radio" name="PC_Sex" value="Male">Male<P> 
+<input type="radio" name="PC_Sex" value="Female">Female<P>
+
+Choose a Class: <select name="PC_Class">
+                <option selected>Mage
+                <option>Cleric
+                <option>Thief
+                <option>Warrior
+                <option>Druid
+                <option>Paladin
+                <option>Ranger
+                <option>Barbarian
+                <option>Spellfilcher
+                </SELECT><P>
+
+Choose an Alliance(+2=Good -2=Evil):<select name="PC_Alliance">
+                                    <option>+2
+                                    <option>+1
+                                    <option selected>0
+                                    <option>-1
+                                    <option>-2
+                                    </SELECT>
+<P>
+Choose a Tendency(+2=Lawful -2=Chaotic):<select name="PC_Tendency">
+                                        <option>+2
+                                        <option>+1
+                                        <option selected>0
+                                        <option>-1
+                                        <option>-2
+                                        </SELECT>
+<P>
+Please Enter A Physical Description Of Your Character:<P>
+<TEXTAREA name="PC_Description" ROWS=10 COLS=50></TEXTAREA>
+<P>
+Please Enter A Character History:<P>
+<TEXTAREA name="PC_History" ROWS=10 COLS=50></TEXTAREA>
+<P>
+Please Note, your character's approval will be based on the quality and
+roleplaying merit of mostly your history and character description.  You
+would be wise to take the time now to make sure it is of good quality.<P>
+
+<input type=submit value="Submit This Character For Approval">
+<input type=reset value="Reset This Form">
+
+</FORM>
+</HTML>

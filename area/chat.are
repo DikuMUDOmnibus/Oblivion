@@ -1,0 +1,141 @@
+#AREADATA
+Name	   { ALL } Airius     Chat Area~
+Builders   Airius~
+VNUMs      30000 30100
+Security   9
+Version    3
+End
+
+#ROOMS
+#30000
+Chat Room Centre~
+You are in the chat room, here you will not tick, regain hps, lose timers off
+spells, suffer from poison, etc.  This place is entirely OOC, made for talking
+about New Zealand, and stuff like that.  To the four cardinal directions there
+are public chat rooms that all can enter.  To the four other directions there 
+are private rooms, which only two people amy inhabit at a time and can not be
+overheard.
+~
+0 CDKS 0
+D4
+~
+~
+0 0 3054
+D0
+~
+~
+0 0 30008
+D1
+~
+~
+0 0 30002
+D2
+~
+~
+0 0 30004
+D3
+~
+~
+0 0 30006
+D6
+~
+~
+0 0 30001
+D7
+~
+~
+0 0 30003
+D8
+~
+~
+0 0 30005
+D9
+~
+~
+0 0 30007
+S
+#30002
+Public Chat Room~
+This is a public chat room.
+~
+0 CDKS 0
+D3
+~
+~
+0 0 30000
+S
+#30004
+Public Chat Room~
+This is a public chat room.
+~
+0 CDKS 0
+D0
+~
+~
+0 0 30000
+S
+#30006
+Public Chat Room~
+This is a public chat room.
+~
+0 CDKS 0
+D1
+~
+~
+0 0 30000
+S
+#30008
+Public Chat Room~
+This is a public chat room.
+~
+0 CDKS 0
+D2
+~
+~
+0 0 30000
+S
+#30001
+Private Chat Room~
+This is a private chat room.
+~
+0 CDJKS 0
+D8
+~
+~
+0 0 30000
+S
+#30003
+Private Chat Room~
+This is a private chat room.
+~
+0 CDJKS 0
+D9
+~
+~
+0 0 30000
+S
+#30005
+Private Chat Room~
+This is a private chat room.
+~
+0 CDJKS 0
+D6
+~
+~
+0 0 30000
+S
+#30007
+Private Chat Room~
+This is a private chat room.
+~
+0 CDJKS 0
+D7
+~
+~
+0 0 30000
+S
+#0 
+
+#$
+
+
